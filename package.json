@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start:dev": "MONGO_URI='mongodb://192.168.99.100:27017' nodemon ./bin/www",
-    "start": "MONGO_URI='mongodb://192.168.99.100:27017' node ./bin/www"
+    "start:dev": "MONGO_URI='mongodb://SRV' nodemon ./bin/www",
+    "start": "MONGO_URI='mongodb://SRV' node ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
