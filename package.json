@@ -1,0 +1,20 @@
+{
+  "name": "devops-exercise",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start:dev": "MONGO_URI='mongodb://192.168.99.100:27017' nodemon ./bin/www",
+    "start": "MONGO_URI='mongodb://192.168.99.100:27017' node ./bin/www"
+  },
+  "dependencies": {
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "mongodb": "^3.6.0",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
+
